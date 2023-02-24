@@ -21,3 +21,4 @@ driver.find_element(By.ID, "confirmbtn").click()
 alt = driver.switch_to.alert
 print(alt.text)
 alt.dismiss()
+driver.close()
