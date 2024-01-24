@@ -4,8 +4,8 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.service import Service as ChromeService
 
-# opt = Options()
-# opt.add_experimental_option('detach', True)
+opt = Options()
+opt.add_experimental_option('detach', True)
 driver = webdriver.Chrome(service=ChromeService())
 driver.implicitly_wait(4)
 driver.get('https://rahulshettyacademy.com/angularpractice/')
